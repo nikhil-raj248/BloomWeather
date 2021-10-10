@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <script src="/socket.io/socket.io.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="inputBox">
+            <input type="text" id="txt" name="fname" placeholder="Enter City">
+            <button type="button" id="btn">Search</button>
+        </div>
+        <div class="wave -one"></div>
+        <div class="wave -two"></div>
+        <div class="wave -three"></div>
+
+
+        <div id="weathericon"></div>
+
+        <div class="info">
+            <h2 class="location" id="location"></h2><br>
+            <h1 class="temperature" id="temperature"></h1><br>
+            <h3 class="feels" id="feels"></h3><br>
+            <h3 class="tempmin_max" id="tempmin_max"></h3>
+        </div>
+
+    </div>
+</body>
+</html>
